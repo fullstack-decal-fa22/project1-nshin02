@@ -1,0 +1,132 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    background-image: url(1e5e0ff349c34d1e4f298a829d531884.png);
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.home-button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.nav-button {
+    color: #ffc48c;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.nav-button:hover {
+    color:lightslategrey;
+
+}
+
+.logo {
+    color: black;
+    flex: 10 1 0;
+}
+
+.home-button:hover {
+    color: lightslategrey;
+}
+
+.about {
+    flex: 1 1 0;
+}
+
+.projects {
+    flex: 1 1 0;
+
+}
+
+.contact {
+    flex: 1 1 0;
+
+}
+
+.middle-intro {
+    display: flex;
+}
+
+#name {
+    color: darkcyan;
+    font-size: xx-large;
+    flex: 5 1 0;
+    margin-left: 8%;
+}
+
+.intro-text {
+    color: darkslategray;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.emoji-me {
+    margin-right: 20%;
+}
+
+h3 {
+    font-size: xx-large;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: darkcyan;
+    flex: 5 1 0;
+    margin-left: 8%;
+}
+
+.description-of-me {
+    flex: 5 1 0;
+    margin-left: 8%;
+    margin-right: 20%;
+    font-size: larger;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 500px;
+    margin-left: 8%;
+    margin-right: 20%;
+}
+
+.grid-item {
+    border: 2px solid darkslategrey;
+    font-size: large;
+    padding: 20px;
+    margin-left: 8%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+.contact-child {
+    margin-left: 8%;
+    margin-right: 20%;
+}
+
+h6 {
+    margin-left: 8%;
+    margin-right: 20%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
